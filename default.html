@@ -308,7 +308,85 @@ Here is a photo of me: &lt;img src="photo.jpeg" /&gt;
 		</p>
 	</section>
 	<section>
-		<h1>Web-Page</h1>
+		<h1>Web-Text versus Web-Page</h1>
+		<p>
+			Sometimes HTML is just marked-up text.
+			For example:
+		</p>
+		<figure>
+			<pre><code>
+On the &lt;b&lt;World Wide Web&lt;/b&lt;, nowadays usually just called the &lt;b&lt;Web&lt;/b&lt;, the most common format is &lt;i&lt;HTML&lt;/i&lt;.
+			</code></pre>
+			<figcaption>
+				Example web-text.
+			</figcaption>
+		</figure>
+		<p>
+			And, sometimes HTML is a whole <strong>Web-Page</strong>.
+			For example:
+		</p>
+		<figure>
+			<pre><code>
+&lt;html&gt;
+	&lt;head&gt;
+		&lt;title&gt;Hello World!&lt;/title&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+		&lt;p&gt;
+			On the &lt;b&lt;World Wide Web&lt;/b&lt;, nowadays usually just called the &lt;b&lt;Web&lt;/b&lt;, the most common format is &lt;i&lt;HTML&lt;/i&lt;.
+		&lt;/p&gt;
+	&lt;/body&gt;
+&lt;/html&gt;
+			</code></pre>
+			<figcaption>
+				Example web-page.
+			</figcaption>
+		</figure>
+		<p>
+			There is a lot more stuff in this web-page example as compared to the web-text example.
+			Let's go over it.
+		</p>
+		<p>
+			The outer most layer of the web-page are the <code>&lt;html&gt;</code> and <code>&lt;/html&gt;</code> <em>HTML tag</em> pairs.
+			The declare that this is an HTML document.
+		</p>
+		<figure>
+			<pre><code>
+&lt;html&gt;
+
+	...
+
+&lt;/html&gt;
+			</code></pre>
+		</figure>
+		<p>
+			After that, the HTML document is divided into two sections:
+		</p>
+		<ol>
+			<li>
+				the <strong>head</strong> which is wrapped with the <code>&lt;head&gt;</code> and <code>&lt;/head&gt;</code> <em>HTML tag</em> pair, and
+			</li>
+			<li>
+				the <strong>body</strong> which is wrapped with the <code>&lt;body&gt;</code> and <code>&lt;/body&gt;</code> <em>HTML tag</em> pair, and
+			</li>
+		<ol>
+		<figure>
+			<pre><code>
+&lt;html&gt;
+&lt;html&gt;
+	&lt;head&gt;
+
+		...
+
+	&lt;/head&gt;
+	&lt;body&gt;
+
+		...
+
+	&lt;/body&gt;
+&lt;/html&gt;
+			</code></pre>
+		</figure>
 	</section>
 	<section>
 		<h1>HTML Elements versus HTML Tags</h1>
