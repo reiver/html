@@ -373,7 +373,6 @@ On the &lt;b&lt;World Wide Web&lt;/b&lt;, nowadays usually just called the &lt;b
 		<figure>
 			<pre><code>
 &lt;html&gt;
-&lt;html&gt;
 	&lt;head&gt;
 
 		...
@@ -387,6 +386,70 @@ On the &lt;b&lt;World Wide Web&lt;/b&lt;, nowadays usually just called the &lt;b
 &lt;/html&gt;
 			</code></pre>
 		</figure>
+		<p>
+			The <strong>body</strong> is where the web-text goes.
+			I.e., you can put web-text inside of a web-page.
+		</p>
+		<p>
+			The <strong>head</strong> is something that web-pages have that web-text doesn't.
+		</p>
+		<p>
+			There are a lot of different things that can go into the <strong>head</strong>.
+			But, in this latest example, we just a <strong>title</strong>.
+		</p>
+		<p>
+			The way to probably think about the difference between the <strong>head</strong> and <strong>body</strong> is:
+		</p>
+		<ol>
+			<li>
+				put meta-data in the HTML <strong>head</strong>, and
+			</li>
+			<li>
+				put web-text in the HTML <strong>body</strong>.
+			</li>
+		</ol>
+		<p>
+			If that doesn't make sense yet, don't worry — it will.
+			Just keep on reading.
+			The main take-away is, if you want to create a web-page, start with this:
+		</p>
+		<figure>
+			<pre><code>
+&lt;html&gt;
+	&lt;head&gt;
+
+
+	&lt;/head&gt;
+	&lt;body&gt;
+
+
+	&lt;/body&gt;
+&lt;/html&gt;
+			</code></pre>
+		</figure>
+		<p>
+			Or, better yet, this:
+		</p>
+		<figure>
+			<pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
+	&lt;head&gt;
+		&lt;meta charset="utf-8" /&gt;
+
+
+	&lt;/head&gt;
+	&lt;body&gt;
+
+
+	&lt;/body&gt;
+&lt;/html&gt;
+			</code></pre>
+		</figure>
+		<p>
+			And then put your web-text inside the <strong>body</strong>, and put your <em>title</em> and other meta-data inside the <strong>head</strong>.
+			For example:
+		</p>
 	</section>
 	<section>
 		<h1>HTML Elements versus HTML Tags</h1>
