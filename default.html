@@ -189,6 +189,42 @@ I like to drink H&lt;sub&gt;2&lt;/sub&gt;O in a cup.
 		</p>
 	</section>
 	<section>
+		<h1>HTML Attributes</h1>
+		<p>
+			Here is another example:
+		</p>
+		<figure>
+			<pre><code>
+Please &lt;a href="http://example.com"&gt;tap here&lt;/a&gt; to go to the web-site.
+			</code></pre>
+			<figcaption>
+				Example HTML code that includes a hyperlink pointing to: http://example.com
+			</figcaption>
+		</figure>
+		<p>
+			The <code>&lt;a&gt;</code> and <code>&lt;/a&gt;</code> pair of <em>HTML tags</em> looks similar to all the other paired <em>HTML tags</em> we already have seen before excep for one thing: <code>href="http://example.com"</code>.
+			This is called an <strong>HTML attribute</strong>.
+			And <em>HTML attribute</em> has two parts to it — the <strong>name</strong> and the <strong>value</strong>.
+			For <code>href="http://example.com"</code>, the <strong>name</strong> is <code>href</code> and the value <code>http://example.com</code>.
+		</p>
+		<p>
+			Here is another example:
+		</p>
+		<figure>
+			<pre><code>
+You can see my photos on &lt;a href="http://mastodon.example/@bahmankas" rel="me"&gt;Pixelfed&lt;/a&gt;.
+			</code></pre>
+			<figcaption>
+				Example HTML code that includes a rel-me hyperlink.
+			</figcaption>
+		</figure>
+		<p>
+			Notice that in this example there are two attributes.
+			We again have the <em>HTML attribute</em> with the <em>name</em> <code>href</code> — although in this example, it has a different value: <code>http://mastodon.example/@bahmankas</code>.
+			But, we now have a new <em>HTML attribute</em> with the <em>name</em> <code>rel</code> whose value is <code>me</code>.
+		</p>
+	</section>
+	<section>
 		<h1>Unpaired HTML Tags</h1>
 		<p>
 			The <em>HTML tags</em> we just looked at all came in pairs — with an <em>opening</em> <em>HTML tag</em> (such as <code>&lt;b&gt;</code>, <code>&lt;i&gt;</code>, and <code>&lt;sub&gt;</code>) and a <em>closing</em> <em>HTML tag</em> (such as <code>&lt;/b&gt;</code>, <code>&lt;/i&gt;</code>, and <code>&lt;/sub&gt;</code>).
@@ -211,6 +247,9 @@ Here is a photo of me: &lt;img src="photo.jpeg" /&gt;
 				Example HTML code that includes an image.
 			</figcaption>
 		</figure>
+		<p>
+			(Since we recently talked about <em>HTML attributes</em>, notice this example has an <em>HTML attribute</em> with the <em>name</em> <code>src</code> whose value is <code>photo.jpeg</code>)
+		</p>
 		<p>
 			Here are some more <em>unpaired</em> <em>HTML tags</em>:
 		</p>
@@ -243,35 +282,36 @@ Here is a photo of me: &lt;img src="photo.jpeg" /&gt;
 		<p>
 			Notice that <em>unpaired</em> <strong>HTML tags</strong> has a (forward) slash (i.e., a solidus) as the <strong>second to last</strong> character.
 		</p>
-	</section>
-	<section>
-		<h1>HTML Attributes</h1>
 		<p>
-			Here is another example:
+			Here is an example:
 		</p>
 		<figure>
 			<pre><code>
-Please &lt;a href="http://example.com"&gt;tap here&lt;/a&gt; to go to the web-site.
+&lt;p&gt;
+	Hello!
+	How do you do?
+&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;
+	Do you want to play a game?
+&lt;/p&gt;
 			</code></pre>
 			<figcaption>
-				Example HTML code that includes a hyperlink pointing to: http://example.com
+				Example HTML code that includes a horzintal-rule.
 			</figcaption>
 		</figure>
 		<p>
-			The <code>&lt;a&gt;</code> and <code>&lt;/a&gt;</code> pair of <em>HTML tags</em> looks similar to all the other paired <em>HTML tags</em> we already have seen before excep for one thing: <code>href="http://example.com"</code>.
-			This is called an <strong>HTML attribute</strong>.
-			And <em>HTML attribute</em> has two parts to it — the <strong>name</strong> and the <strong>value</strong>.
-			For <code>href="http://example.com"</code>, the <strong>name</strong> is <code>href</code> and the value <code>http://example.com</code>.
+			In this latest example, it is the <code>&lt;hr /&gt;</code> tagthat is the <em>unpaired</em> <strong>HTML tag</strong> — and what you should be focusing on in this example.
+			(The <em>opening</em> <code>&lt;p&gt;</code> and <em>closing</em> <code>&lt;/p&gt;</code> <strong>HTML tags</strong> are paired.)
 		</p>
-		<p>
-			Here is another example:
-		</p>
-	</section>
-	<section>
-		<h1>HTML Elements versus HTML Tags</h1>
 	</section>
 	<section>
 		<h1>Web-Page</h1>
+	</section>
+	<section>
+		<h1>HTML Elements versus HTML Tags</h1>
 	</section>
 	<section>
 		<h1>HTML Block Elements versus HTML Inline Elements</h1>
