@@ -433,9 +433,10 @@ On the &lt;b&lt;World Wide Web&lt;/b&lt;, nowadays usually just called the &lt;b
 		<figure>
 			<pre><code>
 &lt;!DOCTYPE html&gt;
-&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="en"&gt;
 	&lt;head&gt;
-		&lt;meta charset="utf-8" /&gt;
+		&lt;meta charset="UTF-8" /&gt;
+		&lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
 
 
 	&lt;/head&gt;
@@ -445,7 +446,15 @@ On the &lt;b&lt;World Wide Web&lt;/b&lt;, nowadays usually just called the &lt;b
 	&lt;/body&gt;
 &lt;/html&gt;
 			</code></pre>
+			<figcaption>
+				HTML5 boilerplate code
+			</figcaption>
 		</figure>
+		<p>
+			(Note that the <code>lang="en"</code> attribute specifies the main (human) language the HTML document is in.
+			In this case it is <code>en</code>, which is the 2-letter language-code for the <em>English language</em>.
+			If you are creating an HTML document whose main (human) language is another (human) language, then you should replace <code>en</code> in the example with whatever the 2-letter language-code for that (human) language is.)
+		</p>
 		<p>
 			And then put your web-text inside the <strong>body</strong>, and put your <em>title</em> and other meta-data inside the <strong>head</strong>.
 			For example:
